@@ -1,0 +1,21 @@
+{
+    "name": "axdlee/upyun-laravel-storage",
+    "description": "Upyun Resource (Cloud) Storage SDK for Laravel 5",
+    "type": "library",
+    "require": {
+        "upyun/sdk": "3.0.0-RC5",
+        "league/flysystem": "^1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sheldon Lee",
+            "email": "xdlee110@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Axdlee\\UpyunStorage\\": "src/"
+        }
+    }
+}
