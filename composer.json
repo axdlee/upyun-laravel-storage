@@ -3,7 +3,7 @@
     "description": "Upyun Resource (Cloud) Storage SDK for Laravel 5",
     "type": "library",
     "require": {
-        "upyun/sdk": "3.0.0-RC5",
+        "upyun/sdk": "^3.0.0-RC5",
         "league/flysystem": "^1.0"
     },
     "license": "MIT",
