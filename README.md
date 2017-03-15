@@ -11,7 +11,7 @@
 ## 安装
 
  - ```composer require axdlee/upyun-laravel-storage```
- - ```config/app.php``` 里面的 ```providers``` 数组， 加上一行 ```Axdlee\UpyunStorage\UpyunStorageServiceProvider```
+ - ```config/app.php``` 里面的 ```providers``` 数组， 加上一行 ```Axdlee\UpyunStorage\UpyunStorageServiceProvider::class,```
  - ```config/filesystem.php``` 里面的 ```disks```数组加上：
 
 ```php
