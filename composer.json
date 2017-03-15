@@ -13,6 +13,7 @@
             "email": "xdlee110@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "Axdlee\\UpyunStorage\\": "src/"
